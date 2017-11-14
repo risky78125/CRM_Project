@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wuqi.dev.domain">
+
+    <class name="Department">
+        <id name="deptId" length="32">
+            <generator class="uuid"/>
+        </id>
+        <property name="deptName" length="100"/>
+    </class>
+
+</hibernate-mapping>
